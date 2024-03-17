@@ -1,6 +1,6 @@
 import express, { Request, Response } from "express";
 import zod from "zod";
-const fs = require("fs");
+import fs from "fs";
 
 const App = express();
 interface Produto {
